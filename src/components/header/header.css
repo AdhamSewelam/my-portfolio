@@ -21,6 +21,10 @@
   font-weight: var(--font-medium);
 }
 
+.nav__logo {
+  font-size: var(--h3-font-size);
+}
+
 .nav__list {
   display: flex;
   column-gap: 2rem;
@@ -50,8 +54,9 @@
 
 /* CHANGE BACKGROUND HEADER */
 .scroll-header {
-  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.4);
 }
+
 /* BREAKPOINTS */
 /* For medium devices */
 @media screen and (max-width: 768px) {
@@ -71,7 +76,7 @@
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
   }

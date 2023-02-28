@@ -49,9 +49,13 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">
+                  Bachelor’s Degree at Computer Science
+                </h3>
                 <span className="qualification__subtitle">
-                  Egypt - Computer Science
+                  Cairo, Egypt, Modern Academy for Computer Science & Management
+                  Technology in Maadi Very Good, <br />
+                  GPA:3.02
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2018 - 2022
@@ -72,24 +76,28 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Software Engineering</h3>
+                <h3 className="qualification__title">
+                  Full Stack Web Development
+                </h3>
                 <span className="qualification__subtitle">
-                  Egypt - Computer Science
+                  Cairo, Egypt, Route Academy
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Full Stack Development</h3>
+                <h3 className="qualification__title">
+                  Programming Fundamentals (Mini ITI)
+                </h3>
                 <span className="qualification__subtitle">
-                  Egypt - Computer Science
+                  Cairo, Egypt, Route Academy
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
 
@@ -107,12 +115,12 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UI Developer</h3>
+                <h3 className="qualification__title">High School Diploma</h3>
                 <span className="qualification__subtitle">
-                  Egypt - Computer Science
+                  Cairo, Egypt, Qawmaya Language School
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2015 - 2018
                 </div>
               </div>
             </div>
@@ -127,47 +135,15 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Frontend Developer</h3>
+                <h3 className="qualification__title">
+                  Summer Training About C++ Programming language
+                </h3>
                 <span className="qualification__subtitle">
-                  Egypt - Computer Science
+                  Egypt - Modern Academy for Computer Science & Management
+                  Technology in Maadi
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2022
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Backend Developer</h3>
-                <span className="qualification__subtitle">
-                  Egypt - Computer Science
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2022
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Full Stack Development</h3>
-                <span className="qualification__subtitle">
-                  Egypt - Computer Science
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2018
                 </div>
               </div>
 
