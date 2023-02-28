@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portfolio.git/static/css/main.af3da475.css",
+    "main.js": "/my-portfolio.git/static/js/main.71f6ddfb.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio.git/static/js/787.128fc6e9.chunk.js",
+    "static/media/Adham Sewelam CV.pdf": "/my-portfolio.git/static/media/Adham Sewelam CV.b94745c1817d4a6cb2b5.pdf",
+    "static/media/About.jpg": "/my-portfolio.git/static/media/About.44495b65d142e63d7d58.jpg",
+    "static/media/Profile.jpg": "/my-portfolio.git/static/media/Profile.44495b65d142e63d7d58.jpg",
+    "static/media/testimonial3.png": "/my-portfolio.git/static/media/testimonial3.2e18bfe27c6d2e2e9fdc.png",
+    "static/media/testimonial2.png": "/my-portfolio.git/static/media/testimonial2.39a53f7f092f07f5bceb.png",
+    "static/media/testimonial1.png": "/my-portfolio.git/static/media/testimonial1.89079c1d25f2c94ceb89.png",
+    "index.html": "/my-portfolio.git/index.html",
+    "main.af3da475.css.map": "/my-portfolio.git/static/css/main.af3da475.css.map",
+    "main.71f6ddfb.js.map": "/my-portfolio.git/static/js/main.71f6ddfb.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio.git/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af3da475.css",
+    "static/js/main.71f6ddfb.js"
+  ]
+}
