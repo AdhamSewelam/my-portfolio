@@ -1,0 +1,105 @@
+/* DARK MODE */
+.dark,
+.dark .contact__form-tag,
+.dark .footer,
+.dark .nav__menu.show-menu {
+  background-color: black;
+  color: white;
+}
+
+.dark .nav__logo,
+.dark .nav__item .nav__link,
+.dark .home__social a,
+.dark .home__title,
+.dark .section__title,
+.dark .qualification__button.button--flex,
+.dark .qualification__title,
+.dark .contact__title,
+.dark .contact__form-input,
+.dark .footer__title,
+.dark .footer__link,
+.dark .footer__copy,
+.dark .nav__toogle i,
+.dark .nav__menu.show-menu i {
+  color: white;
+  transition: 0.3s all;
+}
+
+.dark i.uil.uil-moon {
+  color: #e6c85d;
+}
+
+.dark i.uil.uil-moon::before {
+  content: '\e9cc';
+}
+
+.dark .nav__item button > i {
+  padding: 0.1rem 0.4rem 0.1rem 3rem;
+  font-size: 1.5rem;
+  transition: 0.5s all;
+}
+
+.dark .contact__form-input {
+  border: white solid 1px;
+}
+
+.dark .home__subtitle,
+.dark .home__description,
+.dark .home__scroll-button.button--flex span,
+.dark .home__scroll-button.button--flex i,
+.dark .home__scroll-button.button--flex svg > path,
+.dark .section__subtitle,
+.dark .qualification__subtitle,
+.dark .qualification__calender {
+  color: lightgray;
+  stroke: lightgray !important;
+}
+
+.dark .about__subtitle,
+.dark .skills__level,
+.dark .services__modal-description,
+.dark .portfolio__modal-description,
+.dark .testimonial__description,
+.dark .contact__card-data {
+  color: black;
+}
+
+/* ACTIVE LINK */
+.dark .home__social a:hover,
+.dark .active-link:visited,
+.dark .nav__link:hover,
+.dark .home__scroll-button.button--flex:hover span,
+.dark .home__scroll-button.button--flex:hover i,
+.dark .home__scroll-button.button--flex:hover svg > path,
+.dark .qualification__button.button--flex:hover,
+.dark .qualification__button.qualification__active.button--flex,
+.dark .footer__link:hover,
+.dark .nav__link.active-link i,
+.dark .nav__link:hover i {
+  color: #e6c85d;
+  stroke: #e6c85d !important;
+}
+
+.dark .button.button--flex,
+.dark .button.button--flex svg > path,
+.dark .footer__social-link,
+.dark .scrollup.show-scroll,
+.dark .scrollup.show-scroll i {
+  background-color: white;
+  color: black;
+  fill: black;
+}
+
+.dark .button.button--flex:hover,
+.dark .button.button--flex:hover svg > path,
+.dark .footer__social-link:hover,
+.dark .scrollup.show-scroll:hover,
+.dark .scrollup.show-scroll:hover i {
+  background-color: #e6c85d;
+}
+
+/* LIGHT MODE*/
+.light {
+  background-color: white;
+  color: black;
+}

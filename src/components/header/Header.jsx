@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './header.css';
+import './darkmode.css';
 
 const Header = () => {
   // CHANGE BACKGROUND HEADER
@@ -14,9 +15,24 @@ const Header = () => {
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState('#home');
 
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+    document.body.className = theme;
+  }, [theme]);
+
   return (
     <>
-      <header className="header">
+      <header className={`${theme} header`}>
         <nav className="nav container">
           <a href="index.html" className="nav__logo">
             Sewelam
@@ -106,6 +122,17 @@ const Header = () => {
                 >
                   <i className="uil uil-message nav__icon"></i> Contact
                 </a>
+              </li>
+
+              <li className="nav__item">
+                <button
+                  className={
+                    activeNav === '#' ? 'nav__link active-link' : 'nav__link'
+                  }
+                  onClick={toggleTheme}
+                >
+                  <i class="uil uil-moon"></i>
+                </button>
               </li>
             </ul>
 
