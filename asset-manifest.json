@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a1b04466.css",
-    "main.js": "/my-portfolio/static/js/main.2f4aa6ce.js",
+    "main.css": "/my-portfolio/static/css/main.263f158a.css",
+    "main.js": "/my-portfolio/static/js/main.b346ce93.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Festival.png": "/my-portfolio/static/media/Festival.23d7dd58fe09186e149f.png",
     "static/media/Angora.png": "/my-portfolio/static/media/Angora.c14c8f2b85ebb3311fe4.png",
+    "static/media/Jooker.png": "/my-portfolio/static/media/Jooker.73a6009dd39955404e23.png",
     "static/media/GoCinema.png": "/my-portfolio/static/media/GoCinema.a790b6632bd34d62c8c5.png",
     "static/media/bakery.png": "/my-portfolio/static/media/bakery.29f436ea8ae6d2f52c58.png",
     "static/media/TrendingMovies.png": "/my-portfolio/static/media/TrendingMovies.32e7c73f5f2a15869e71.png",
@@ -12,7 +13,7 @@
     "static/media/Fokir.png": "/my-portfolio/static/media/Fokir.14b910e4a2a97b790624.png",
     "static/media/PortfolioTemplate.png": "/my-portfolio/static/media/PortfolioTemplate.d5c597c38ffb51f07655.png",
     "static/media/medi-discover.png": "/my-portfolio/static/media/medi-discover.cc4da50e6b7aa2ba3f11.png",
-    "static/media/Adham Sewelam CV.pdf": "/my-portfolio/static/media/Adham Sewelam CV.0ba1d012a902aebd9436.pdf",
+    "static/media/Adham Sewelam CV.pdf": "/my-portfolio/static/media/Adham Sewelam CV.00a07288169f0957795f.pdf",
     "static/media/Weather.png": "/my-portfolio/static/media/Weather.d72ef57fee6593ddfe47.png",
     "static/media/About.jpg": "/my-portfolio/static/media/About.44495b65d142e63d7d58.jpg",
     "static/media/Profile.jpg": "/my-portfolio/static/media/Profile.44495b65d142e63d7d58.jpg",
@@ -20,12 +21,12 @@
     "static/media/testimonial2.png": "/my-portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/my-portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/my-portfolio/index.html",
-    "main.a1b04466.css.map": "/my-portfolio/static/css/main.a1b04466.css.map",
-    "main.2f4aa6ce.js.map": "/my-portfolio/static/js/main.2f4aa6ce.js.map",
+    "main.263f158a.css.map": "/my-portfolio/static/css/main.263f158a.css.map",
+    "main.b346ce93.js.map": "/my-portfolio/static/js/main.b346ce93.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1b04466.css",
-    "static/js/main.2f4aa6ce.js"
+    "static/css/main.263f158a.css",
+    "static/js/main.b346ce93.js"
   ]
 }
