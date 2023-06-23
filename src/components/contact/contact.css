@@ -107,6 +107,19 @@
   resize: none;
 }
 
+.bottom__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.responseMessage {
+  background-color: lightgreen;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: grey 3px solid;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

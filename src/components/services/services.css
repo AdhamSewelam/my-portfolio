@@ -103,6 +103,11 @@
   column-gap: 0.5rem;
 }
 
+.services__modal-service i{
+  display: flex;
+  align-items: center;
+}
+
 .services__modal-icon {
   color: var(--title-color);
   font-size: 1.1rem;

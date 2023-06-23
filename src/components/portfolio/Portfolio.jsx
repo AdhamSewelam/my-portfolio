@@ -11,6 +11,7 @@ import Festival from '../../assets/Festival.png';
 import Fokir from '../../assets/Fokir.png';
 import GoCinema from '../../assets/GoCinema.png';
 import ECommerce from '../../assets/ECommerce.png';
+import Jooker from '../../assets/Jooker.png';
 
 const Portfolio = () => {
   const [toggleState, setToogleState] = useState(0);
@@ -25,6 +26,102 @@ const Portfolio = () => {
       <span className="section__subtitle">My Previous Projects</span>
 
       <div className="portfolio__container container grid">
+        <div className="portfolio__content">
+          <div>
+            <i className="bx bxs-book portfolio__icon"></i>
+            <h3 className="portfolio__title">
+              Jooker <br /> Website
+            </h3>
+          </div>
+
+          <span className="portfolio__button" onClick={() => toggleTab(11)}>
+            View More{' '}
+            <i className="uil uil-arrow-right portfolio__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 11
+                ? 'portfolio__modal active-modal'
+                : 'portfolio__modal'
+            }
+          >
+            <div className="portfolio__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times portfolio__modal-close"
+              ></i>
+
+              <h3 className="portfolio__modal-title">Jooker Website</h3>
+              <p className="portfolio__modal-description">
+                Jooker website is a digital platform designed to manage and
+                deliver educational courses and training programs online. It
+                provides a centralized location for instructors to create and
+                distribute course materials, track student progress, and manage
+                course content. Jooker website are typically used by educational
+                institutions, corporations, and organizations to deliver
+                training and educational content to their employees or students.
+              </p>
+              <div className="portfolio__modal-link">
+                <a href="https://jooker.me/" target="_blank">
+                  Click Here To See More
+                </a>
+              </div>
+
+              <div className="portfolio__modal-services grid">
+                <img src={Jooker} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="portfolio__content">
+          <div>
+            <i className="bx bx-store portfolio__icon"></i>
+            <h3 className="portfolio__title">
+              E-Commerce <br /> Website
+            </h3>
+          </div>
+
+          <span className="portfolio__button" onClick={() => toggleTab(10)}>
+            View More{' '}
+            <i className="uil uil-arrow-right portfolio__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 10
+                ? 'portfolio__modal active-modal'
+                : 'portfolio__modal'
+            }
+          >
+            <div className="portfolio__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times portfolio__modal-close"
+              ></i>
+
+              <h3 className="portfolio__modal-title">E-Commerce Website</h3>
+              <p className="portfolio__modal-description">
+                ECommerce website can be a valuable tool for businesses looking
+                to expand their customer base and increase their revenue. By
+                providing customers with a convenient and streamlined shopping
+                experience, these websites can help to build customer trust and
+                loyalty, and promote long-term growth and success.
+              </p>
+              <div className="portfolio__modal-link">
+                <a href="https://ecommrce-mern.onrender.com/" target="_blank">
+                  Click Here To See More
+                </a>
+              </div>
+
+              <div className="portfolio__modal-services grid">
+                <img src={ECommerce} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="portfolio__content">
           <div>
             <i className="bx bx-baguette portfolio__icon"></i>
@@ -445,53 +542,6 @@ const Portfolio = () => {
 
               <div className="portfolio__modal-services grid">
                 <img src={GoCinema} alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="portfolio__content">
-          <div>
-            <i className="bx bx-store portfolio__icon"></i>
-            <h3 className="portfolio__title">
-              E-Commerce <br /> Website
-            </h3>
-          </div>
-
-          <span className="portfolio__button" onClick={() => toggleTab(10)}>
-            View More{' '}
-            <i className="uil uil-arrow-right portfolio__button-icon"></i>
-          </span>
-
-          <div
-            className={
-              toggleState === 10
-                ? 'portfolio__modal active-modal'
-                : 'portfolio__modal'
-            }
-          >
-            <div className="portfolio__modal-content">
-              <i
-                onClick={() => toggleTab(0)}
-                className="uil uil-times portfolio__modal-close"
-              ></i>
-
-              <h3 className="portfolio__modal-title">E-Commerce Website</h3>
-              <p className="portfolio__modal-description">
-                ECommerce website can be a valuable tool for businesses looking
-                to expand their customer base and increase their revenue. By
-                providing customers with a convenient and streamlined shopping
-                experience, these websites can help to build customer trust and
-                loyalty, and promote long-term growth and success.
-              </p>
-              <div className="portfolio__modal-link">
-                <a href="https://ecommrce-mern.onrender.com/" target="_blank">
-                  Click Here To See More
-                </a>
-              </div>
-
-              <div className="portfolio__modal-services grid">
-                <img src={ECommerce} alt="" />
               </div>
             </div>
           </div>
