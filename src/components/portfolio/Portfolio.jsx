@@ -12,6 +12,9 @@ import Fokir from '../../assets/Fokir.png';
 import GoCinema from '../../assets/GoCinema.png';
 import ECommerce from '../../assets/ECommerce.png';
 import Jooker from '../../assets/Jooker.png';
+import CPTC from '../../assets/CPTC.png';
+import CPHT from '../../assets/CPHT.png';
+import CPM from '../../assets/CP Marketing.png';
 
 const Portfolio = () => {
   const [toggleState, setToogleState] = useState(0);
@@ -26,6 +29,153 @@ const Portfolio = () => {
       <span className="section__subtitle">My Previous Projects</span>
 
       <div className="portfolio__container container grid">
+        <div className="portfolio__content">
+          <div>
+            <i className="bx bx-store portfolio__icon"></i>
+            <h3 className="portfolio__title">
+              CP Marketing <br /> Website
+            </h3>
+          </div>
+
+          <span className="portfolio__button" onClick={() => toggleTab(14)}>
+            View More{' '}
+            <i className="uil uil-arrow-right portfolio__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 14
+                ? 'portfolio__modal active-modal'
+                : 'portfolio__modal'
+            }
+          >
+            <div className="portfolio__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times portfolio__modal-close"
+              ></i>
+
+              <h3 className="portfolio__modal-title">CP Marketing</h3>
+              <p className="portfolio__modal-description">
+                CP Marketing stand for <b>Creative Patterns for Marketing</b>,
+                is a hub of innovative marketing solutions designed to elevate
+                your brand presence and drive success in the digital landscape.
+                Our website showcases a diverse portfolio of projects and an
+                array of services tailored to meet your marketing needs.
+                <br />
+                Services like : <br />
+                <b>Content Creation</b> <br />
+                <b>Digital Marketing</b> <br />
+                <b>Web Development</b> <br />
+                <b>Branding</b> <br />
+                <b>Video Production</b> <br />
+                <b>Photography</b> <br />
+              </p>
+              <div className="portfolio__modal-link">
+                <a href="https://cptc.sa/marketing" target="_blank">
+                  Click Here To See More
+                </a>
+              </div>
+
+              <div className="portfolio__modal-services grid">
+                <img src={CPM} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="portfolio__content">
+          <div>
+            <i className="bx bx-health portfolio__icon"></i>
+            <h3 className="portfolio__title">CPHT (Health Training)</h3>
+          </div>
+
+          <span className="portfolio__button" onClick={() => toggleTab(13)}>
+            View More{' '}
+            <i className="uil uil-arrow-right portfolio__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 13
+                ? 'portfolio__modal active-modal'
+                : 'portfolio__modal'
+            }
+          >
+            <div className="portfolio__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times portfolio__modal-close"
+              ></i>
+
+              <h3 className="portfolio__modal-title">CPHT</h3>
+              <p className="portfolio__modal-description">
+                CPHT stand for <b>Creative Patterns for Health Training</b>, is
+                your gateway to a world of health education, courses, and
+                events. We specialize in developing comprehensive courses led by
+                expert instructors and renowned doctors, aimed at empowering
+                individuals and professionals in the field of healthcare.
+              </p>
+              <div className="portfolio__modal-link">
+                <a href="https://health.cptc.sa" target="_blank">
+                  Click Here To See More
+                </a>
+              </div>
+
+              <div className="portfolio__modal-services grid">
+                <img src={CPHT} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="portfolio__content">
+          <div>
+            <i className="bx bx-stats portfolio__icon"></i>
+            <h3 className="portfolio__title">CPTC (Trading Company)</h3>
+          </div>
+
+          <span className="portfolio__button" onClick={() => toggleTab(12)}>
+            View More{' '}
+            <i className="uil uil-arrow-right portfolio__button-icon"></i>
+          </span>
+
+          <div
+            className={
+              toggleState === 12
+                ? 'portfolio__modal active-modal'
+                : 'portfolio__modal'
+            }
+          >
+            <div className="portfolio__modal-content">
+              <i
+                onClick={() => toggleTab(0)}
+                className="uil uil-times portfolio__modal-close"
+              ></i>
+
+              <h3 className="portfolio__modal-title">CPTC</h3>
+              <p className="portfolio__modal-description">
+                CPTC stands for <b>Creative Patterns Trading Company</b> is a
+                dynamic trading company engaged in a spectrum of industries,
+                offering comprehensive solutions and products across various
+                sectors. Our expertise lies in identifying market trends,
+                sourcing innovative products, and facilitating trade
+                relationships that drive success for both businesses and
+                consumers.
+              </p>
+              <div className="portfolio__modal-link">
+                <a href="https://cptc.sa/trading" target="_blank">
+                  Click Here To See More
+                </a>
+              </div>
+
+              <div className="portfolio__modal-services grid">
+                <img src={CPTC} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="portfolio__content">
           <div>
             <i className="bx bxs-book portfolio__icon"></i>
