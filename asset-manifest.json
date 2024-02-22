@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.b99bf0e0.css",
-    "main.js": "/my-portfolio/static/js/main.807541d4.js",
-    "static/js/787.2dcca737.chunk.js": "/my-portfolio/static/js/787.2dcca737.chunk.js",
+    "main.css": "/my-portfolio/static/css/main.263f158a.css",
+    "main.js": "/my-portfolio/static/js/main.8c614119.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/Festival.png": "/my-portfolio/static/media/Festival.23d7dd58fe09186e149f.png",
     "static/media/CP Marketing.png": "/my-portfolio/static/media/CP Marketing.503ae1b734e54918d739.png",
     "static/media/Angora.png": "/my-portfolio/static/media/Angora.c14c8f2b85ebb3311fe4.png",
@@ -16,7 +16,7 @@
     "static/media/Fokir.png": "/my-portfolio/static/media/Fokir.14b910e4a2a97b790624.png",
     "static/media/PortfolioTemplate.png": "/my-portfolio/static/media/PortfolioTemplate.d5c597c38ffb51f07655.png",
     "static/media/medi-discover.png": "/my-portfolio/static/media/medi-discover.cc4da50e6b7aa2ba3f11.png",
-    "static/media/Adham Sewelam CV.pdf": "/my-portfolio/static/media/Adham Sewelam CV.00a07288169f0957795f.pdf",
+    "static/media/Adham Sewelam CV.pdf": "/my-portfolio/static/media/Adham Sewelam CV.c2b1721d7a2eb734323a.pdf",
     "static/media/Weather.png": "/my-portfolio/static/media/Weather.d72ef57fee6593ddfe47.png",
     "static/media/About.jpg": "/my-portfolio/static/media/About.44495b65d142e63d7d58.jpg",
     "static/media/Profile.jpg": "/my-portfolio/static/media/Profile.44495b65d142e63d7d58.jpg",
@@ -24,12 +24,12 @@
     "static/media/testimonial2.png": "/my-portfolio/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/my-portfolio/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/my-portfolio/index.html",
-    "main.b99bf0e0.css.map": "/my-portfolio/static/css/main.b99bf0e0.css.map",
-    "main.807541d4.js.map": "/my-portfolio/static/js/main.807541d4.js.map",
-    "787.2dcca737.chunk.js.map": "/my-portfolio/static/js/787.2dcca737.chunk.js.map"
+    "main.263f158a.css.map": "/my-portfolio/static/css/main.263f158a.css.map",
+    "main.8c614119.js.map": "/my-portfolio/static/js/main.8c614119.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b99bf0e0.css",
-    "static/js/main.807541d4.js"
+    "static/css/main.263f158a.css",
+    "static/js/main.8c614119.js"
   ]
 }
