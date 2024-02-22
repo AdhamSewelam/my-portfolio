@@ -1,6 +1,9 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useEffect, useState } from 'react';
 import './header.css';
 import './darkmode.css';
+import SEWELAMLOGO from '../../assets/ME/SEWELAMLOGO.svg';
+import SEWELAMLOGOLIGHT from '../../assets/ME/SEWELAMLOGOLIGHT.svg';
 
 const Header = () => {
   // CHANGE BACKGROUND HEADER
@@ -35,7 +38,11 @@ const Header = () => {
       <header className={`${theme} header`}>
         <nav className="nav container">
           <a href="index.html" className="nav__logo">
-            Sewelam
+            {theme === 'dark' ? (
+              <img src={SEWELAMLOGOLIGHT} alt="" />
+            ) : (
+              <img src={SEWELAMLOGO} alt="" />
+            )}
           </a>
 
           <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>

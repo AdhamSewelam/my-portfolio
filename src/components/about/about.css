@@ -8,6 +8,7 @@
   width: 400px;
   border-radius: 1.5rem;
   justify-self: center;
+  filter: grayscale(100%) contrast(1);
 }
 
 .about__info {
@@ -54,6 +55,9 @@
 
   .about__img {
     width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center center;
   }
 
   .about__box {

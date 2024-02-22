@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './qualification.css';
 
 const Qualification = () => {
-  const [toggleState, setToogleState] = useState(1);
+  const [toggleState, setToogleState] = useState(2);
 
   const toggleTab = (index) => {
     setToogleState(index);

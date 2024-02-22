@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import './about.css';
-import AboutImg from '../../assets/About.jpg';
+import AboutImg from '../../assets/ME/WhatsApp Image 2024-02-20 at 16.10.31_011d1147.jpg';
 import CV from '../../assets/Adham Sewelam CV.pdf';
 import Info from './info';
 
