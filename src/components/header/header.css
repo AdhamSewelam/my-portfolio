@@ -90,6 +90,16 @@
 
   .nav {
     height: var(--header-height);
+    justify-content: center;
+    gap: 0;
+  }
+
+  .nav__logo {
+    margin-left: auto;
+  }
+
+  .nav__toogle{
+    margin-left: auto;
   }
 
   .nav__menu {
