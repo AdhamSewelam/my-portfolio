@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5d04cf50.css",
-    "main.js": "/my-portfolio/static/js/main.af00f739.js",
-    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "main.css": "/my-portfolio/static/css/main.f2a4168a.css",
+    "main.js": "/my-portfolio/static/js/main.e74c61ec.js",
+    "static/js/787.2dcca737.chunk.js": "/my-portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/Festival.png": "/my-portfolio/static/media/Festival.23d7dd58fe09186e149f.png",
     "static/media/CP Marketing.png": "/my-portfolio/static/media/CP Marketing.503ae1b734e54918d739.png",
     "static/media/Angora.png": "/my-portfolio/static/media/Angora.c14c8f2b85ebb3311fe4.png",
@@ -48,12 +48,12 @@
     "static/media/GOCINEMALOGO.svg": "/my-portfolio/static/media/GOCINEMALOGO.a4936c21c7de7b77bfa947555c60250e.svg",
     "static/media/FOKIRLOGO.svg": "/my-portfolio/static/media/FOKIRLOGO.fcac5f4a749e2db990f7252b57a56a1d.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.5d04cf50.css.map": "/my-portfolio/static/css/main.5d04cf50.css.map",
-    "main.af00f739.js.map": "/my-portfolio/static/js/main.af00f739.js.map",
-    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.f2a4168a.css.map": "/my-portfolio/static/css/main.f2a4168a.css.map",
+    "main.e74c61ec.js.map": "/my-portfolio/static/js/main.e74c61ec.js.map",
+    "787.2dcca737.chunk.js.map": "/my-portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d04cf50.css",
-    "static/js/main.af00f739.js"
+    "static/css/main.f2a4168a.css",
+    "static/js/main.e74c61ec.js"
   ]
 }
