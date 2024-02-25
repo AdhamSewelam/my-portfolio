@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './header.css';
 import './darkmode.css';
 import SEWELAMLOGO from '../../assets/ME/SEWELAMLOGO.svg';
 import SEWELAMLOGOLIGHT from '../../assets/ME/SEWELAMLOGOLIGHT.svg';
 
-const Header = () => {
+const Header = ({ toggleTheme, theme }) => {
   // CHANGE BACKGROUND HEADER
   window.addEventListener('scroll', function () {
     const header = document.querySelector('.header');
@@ -18,31 +18,15 @@ const Header = () => {
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState('#home');
 
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
-
-  const toggleTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-  };
-
-  useEffect(() => {
-    localStorage.setItem('theme', theme);
-    document.body.className = theme;
-  }, [theme]);
-
   return (
     <>
       <header className={`${theme} header`}>
         <nav className="nav container">
           <a href="index.html" className="nav__logo">
-            {theme === 'dark' ? (
-              <img src={SEWELAMLOGOLIGHT} alt="" />
-            ) : (
-              <img src={SEWELAMLOGO} alt="" />
-            )}
+            <img
+              src={theme === 'dark' ? SEWELAMLOGOLIGHT : SEWELAMLOGO}
+              alt=""
+            />
           </a>
 
           <div className={Toggle ? 'nav__menu show-menu' : 'nav__menu'}>

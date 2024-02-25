@@ -1,3 +1,5 @@
+import React, { useEffect, useState } from 'react';
+
 import './App.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
@@ -12,9 +14,24 @@ import Skills from './components/skills/Skills';
 import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
+
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  };
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme);
+    document.body.className = theme;
+  }, [theme]);
+
   return (
     <>
-      <Header />
+      <Header toggleTheme={toggleTheme} theme={theme} />
       <main className="main">
         <Home />
         <About />
@@ -25,7 +42,7 @@ function App() {
         <Testimonials />
         <Contact />
       </main>
-      <Footer />
+      <Footer theme={theme} />
       <ScrollUp />
     </>
   );

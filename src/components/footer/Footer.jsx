@@ -2,11 +2,16 @@
 import React from 'react';
 import './footer.css';
 
-const Footer = () => {
+import SEWELAMLOGO from '../../assets/ME/SEWELAMLOGO.svg';
+import SEWELAMLOGOLIGHT from '../../assets/ME/SEWELAMLOGOLIGHT.svg';
+
+const Footer = ({ theme }) => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Sewelam</h1>
+        <a href="index.html" className="footer__logo">
+          <img src={theme === 'dark' ? SEWELAMLOGOLIGHT : SEWELAMLOGO} alt="" />
+        </a>
 
         <ul className="footer__list">
           <li>
@@ -17,11 +22,6 @@ const Footer = () => {
           <li>
             <a href="#portfolio" className="footer__link">
               Projects
-            </a>
-          </li>
-          <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
             </a>
           </li>
         </ul>
