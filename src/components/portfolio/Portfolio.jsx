@@ -25,6 +25,7 @@ import PORTFOLIOLOGO from '../../assets/Logos/PORTFOLIOLOGO.png';
 import ECOMMERCELOGO from '../../assets/Logos/ECOMMERCELOGO.png';
 import WEATHERLOGO from '../../assets/Logos/WEATHERLOGO.png';
 import MOVIETRENDINGLOGO from '../../assets/Logos/MOVIETRENDINGLOGO.png';
+import RKAAIEZLOGO from '../../assets/Logos/RKAAIEZ.png';
 
 // SCREENS
 import Bakery from '../../assets/bakery.png';
@@ -47,6 +48,7 @@ import MJDesigns from '../../assets/MJDesigns.png';
 import Muse from '../../assets/Muse.png';
 import SAINTGIZA from '../../assets/SAINTGIZA.png';
 import Pantone from '../../assets/Pantone.png';
+import RKAAIEZ from '../../assets/RKAAIEZ.png';
 
 const Portfolio = () => {
   const [toggleState, setToogleState] = useState(0);
@@ -58,6 +60,14 @@ const Portfolio = () => {
   };
 
   const projects = [
+    {
+      name: 'Rkaaiez Website',
+      image: RKAAIEZ,
+      description:
+        'Website based in Saudi Arabia from festivals. We are a professional working system established in 1998, operating according to the latest developments in the field of managing, organizing, and servicing events and conferences in the Kingdom of Saudi Arabia and the Arab Gulf. Through this, we aspire to lead in this field by providing the highest capabilities in integrated services and comprehensive solutions. We aim to attract the best national and foreign talent, trained and specialized in the industry of event management and preparation, to achieve progress and reach the desired quality and satisfaction of our esteemed clients. The quality of services provided reflects our accumulated experience, constant aspiration, and continuous commitment to delivering the highest levels of quality, speed of execution, and direct supervision of what we offer to our successful partners',
+      link: 'https://rkaaiez.com/',
+      logo: RKAAIEZLOGO,
+    },
     {
       name: 'Pantone Website',
       image: Pantone,
