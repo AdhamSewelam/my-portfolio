@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.c7fce61a.css",
-    "main.js": "/my-portfolio/static/js/main.18ef5379.js",
+    "main.js": "/my-portfolio/static/js/main.a521602b.js",
     "static/js/787.2dcca737.chunk.js": "/my-portfolio/static/js/787.2dcca737.chunk.js",
     "static/media/Festival.png": "/my-portfolio/static/media/Festival.23d7dd58fe09186e149f.png",
     "static/media/CP Marketing.png": "/my-portfolio/static/media/CP Marketing.503ae1b734e54918d739.png",
@@ -11,6 +11,7 @@
     "static/media/bakery.png": "/my-portfolio/static/media/bakery.29f436ea8ae6d2f52c58.png",
     "static/media/TrendingMovies.png": "/my-portfolio/static/media/TrendingMovies.32e7c73f5f2a15869e71.png",
     "static/media/Pantone.png": "/my-portfolio/static/media/Pantone.5211d68cdec2f915e394.png",
+    "static/media/RKAAIEZ.png": "/my-portfolio/static/media/RKAAIEZ.68702c6c38017faf3ae5.png",
     "static/media/CPHT.png": "/my-portfolio/static/media/CPHT.463a663f56eefd8b0e06.png",
     "static/media/SAINTGIZA.png": "/my-portfolio/static/media/SAINTGIZA.9d22bd5954a89ffd2b7d.png",
     "static/media/CPTC.png": "/my-portfolio/static/media/CPTC.4dcb174e9f7c4ad9ce35.png",
@@ -49,11 +50,11 @@
     "static/media/FOKIRLOGO.svg": "/my-portfolio/static/media/FOKIRLOGO.fcac5f4a749e2db990f7252b57a56a1d.svg",
     "index.html": "/my-portfolio/index.html",
     "main.c7fce61a.css.map": "/my-portfolio/static/css/main.c7fce61a.css.map",
-    "main.18ef5379.js.map": "/my-portfolio/static/js/main.18ef5379.js.map",
+    "main.a521602b.js.map": "/my-portfolio/static/js/main.a521602b.js.map",
     "787.2dcca737.chunk.js.map": "/my-portfolio/static/js/787.2dcca737.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7fce61a.css",
-    "static/js/main.18ef5379.js"
+    "static/js/main.a521602b.js"
   ]
 }
