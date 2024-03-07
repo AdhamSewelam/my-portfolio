@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = (props) => {
   const form = useRef();
@@ -32,14 +34,34 @@ const Contact = (props) => {
         }
       );
   };
+  AOS.init();
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Get in touch</h2>
-      <span className="section__subtitle">Contact Me</span>
+      <h2
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__title"
+      >
+        Get in touch
+      </h2>
+      <span
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__subtitle"
+      >
+        Contact Me
+      </span>
 
       <div className="contact__container container grid">
-        <div className="contact__content">
+        <div
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="contact__content"
+        >
           <h3 className="contact__title">Talk to me</h3>
 
           <div className="contact__info">
@@ -89,7 +111,12 @@ const Contact = (props) => {
           </div>
         </div>
 
-        <div className="contact__content">
+        <div
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="contact__content"
+        >
           <h3 className="contact__title">Write me your project</h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">

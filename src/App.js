@@ -12,6 +12,7 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Services from './components/services/Services';
 import Skills from './components/skills/Skills';
 import Testimonials from './components/testimonials/Testimonials';
+import Lenis from '@studio-freight/lenis';
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');
@@ -28,6 +29,19 @@ function App() {
     localStorage.setItem('theme', theme);
     document.body.className = theme;
   }, [theme]);
+
+  const lenis = new Lenis();
+
+  lenis.on('scroll', (e) => {
+    console.log(e);
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
 
   return (
     <>

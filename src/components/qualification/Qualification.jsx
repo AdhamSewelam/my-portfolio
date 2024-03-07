@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './qualification.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Qualification = () => {
   const [toggleState, setToogleState] = useState(2);
@@ -7,12 +9,34 @@ const Qualification = () => {
   const toggleTab = (index) => {
     setToogleState(index);
   };
+
+  AOS.init();
+
   return (
     <section className="qualification section">
-      <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My Personal Journey</span>
+      <h2
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__title"
+      >
+        Qualification
+      </h2>
+      <span
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__subtitle"
+      >
+        My Personal Journey
+      </span>
 
-      <div className="qualification__container container">
+      <div
+        data-aos="fade-in"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="qualification__container container"
+      >
         <div className="qualification__tabs">
           <div
             className={

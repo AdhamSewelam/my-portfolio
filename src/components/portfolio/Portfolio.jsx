@@ -1,6 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { useState } from 'react';
 import './portfolio.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // LOGOS
 import MetalsLogo from '../../assets/Logos/88MetalsLogo.webp';
@@ -235,12 +237,33 @@ const Portfolio = () => {
     setCurrentPage(currentPage - 1);
   };
 
+  AOS.init();
+
   return (
     <section className="portfolio section" id="portfolio">
-      <h2 className="section__title">Portfolio</h2>
-      <span className="section__subtitle">My Previous Projects</span>
+      <h2
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__title"
+      >
+        Portfolio
+      </h2>
+      <span
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__subtitle"
+      >
+        My Previous Projects
+      </span>
 
-      <div className="portfolio__container container grid">
+      <div
+        data-aos="fade-in"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="portfolio__container container grid"
+      >
         {currentProjects.map((project, index) => (
           <div className="portfolio__content">
             <div>
@@ -290,10 +313,22 @@ const Portfolio = () => {
 
       {/* Pagination controls */}
       <div className="portfolio__pagination__buttons">
-        <button onClick={prevPage} disabled={currentPage === 1}>
+        <button
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          onClick={prevPage}
+          disabled={currentPage === 1}
+        >
           Previous
         </button>
-        <button onClick={nextPage} disabled={currentPage === totalPages}>
+        <button
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          onClick={nextPage}
+          disabled={currentPage === totalPages}
+        >
           Next
         </button>
       </div>

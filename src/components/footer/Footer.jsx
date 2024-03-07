@@ -1,14 +1,23 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import './footer.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import SEWELAMLOGO from '../../assets/ME/SEWELAMLOGO.svg';
 import SEWELAMLOGOLIGHT from '../../assets/ME/SEWELAMLOGOLIGHT.svg';
 
 const Footer = ({ theme }) => {
+  AOS.init();
+
   return (
     <footer className="footer">
-      <div className="footer__container container">
+      <div
+        data-aos="fade-in"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="footer__container container"
+      >
         <a href="index.html" className="footer__logo">
           <img src={theme === 'dark' ? SEWELAMLOGOLIGHT : SEWELAMLOGO} alt="" />
         </a>

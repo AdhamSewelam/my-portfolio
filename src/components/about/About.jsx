@@ -3,18 +3,49 @@ import React from 'react';
 import './about.css';
 import AboutImg from '../../assets/ME/WhatsApp Image 2024-02-20 at 16.10.31_011d1147.jpg';
 import CV from '../../assets/Adham Sewelam CV.pdf';
+
 import Info from './info';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+  AOS.init();
+
   return (
     <>
       <section className="about section" id="about">
-        <h2 className="section__title">About Me</h2>
-        <span className="section__subtitle">My introduction</span>
+        <h2
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="section__title"
+        >
+          About Me
+        </h2>
+        <span
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="section__subtitle"
+        >
+          My introduction
+        </span>
         <div className="about__container container grid">
-          <img src={AboutImg} alt="" className="about__img" />
+          <img
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+            src={AboutImg}
+            alt=""
+            className="about__img"
+          />
 
-          <div className="about__data">
+          <div
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+            className="about__data"
+          >
             <Info />
 
             <p className="about__description">

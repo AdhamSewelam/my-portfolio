@@ -3,6 +3,8 @@ import './Testimonials.css';
 import { Data } from './Data';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -12,12 +14,31 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper';
 
 const Testimonials = () => {
+  AOS.init();
+
   return (
     <section className="testimonial container section">
-      <h2 className="section__title">My Clients Say</h2>
-      <span className="section__subtitle">Testimonial</span>
+      <h2
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__title"
+      >
+        My Clients Say
+      </h2>
+      <span
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__subtitle"
+      >
+        Testimonial
+      </span>
 
       <Swiper
+        data-aos="fade-in"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
         className="testimonial__container"
         grabCursor={true}
         spaceBetween={24}

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './services.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Services = () => {
   const [toggleState, setToogleState] = useState(0);
@@ -7,13 +9,35 @@ const Services = () => {
   const toggleTab = (index) => {
     setToogleState(index);
   };
+
+  AOS.init();
+
   return (
     <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What I offer</span>
+      <h2
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__title"
+      >
+        Services
+      </h2>
+      <span
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="section__subtitle"
+      >
+        What I offer
+      </span>
 
       <div className="services__container container grid">
-        <div className="services__content">
+        <div
+          data-aos="fade-right"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="services__content"
+        >
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
@@ -88,7 +112,12 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        <div
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="services__content"
+        >
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
@@ -171,7 +200,12 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="services__content">
+        <div
+          data-aos="fade-left"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+          className="services__content"
+        >
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
